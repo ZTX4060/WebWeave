@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - WebWeave</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">&lt;WebWeave//&gt;
+            <a href="index.html"></a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html#skills">Skills</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="contact.html" class="btn btn-nav">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Contact Main Section -->
+    <section class="contact-wrapper">
+        <div class="contact-container">
+            <h1>Let's Work Together.</h1>
+            <p class="subtitle">Have a project in mind or just want to say hi? Send me an email!</p>
+            
+            <!-- Email Card -->
+            <div class="email-card">
+                <!--div class="icon">📧</div-->
+                <h3>Email Me Directly</h3>
+                <a href="mailto:webweave.contact@gmail.com" class="email-link">webweave.contact@gmail.com</a>
+            </div>
+
+            <!-- Simple Form Visual -->
+            <div class="form-container">
+                <form action="mailto:webweave.contact@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright WebWeave &copy; 2025. Built by Zakaria.</p>
+    </footer>
+
+</body>
+</html>
